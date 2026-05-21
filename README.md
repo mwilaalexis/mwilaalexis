@@ -1,42 +1,30 @@
 # Alex Mwila
 
-Software developer specializing in ASP.NET Core microservices, React, and SQL Server.
+Junior .NET backend developer | Building REST APIs with ASP.NET Core 8 and SQL Server
 
-Building [NutriGuide](https://github.com/mwilaalexis/nutri-guide-web), a full-stack nutrition platform with JWT authentication, meal planning, food catalog, tracking, and an API gateway.
+## NutriGuide (main project)
 
----
+Nutrition web app split into small services + React frontend. Good starting point for reviewers:
 
-## Featured project: NutriGuide
+| # | Repository | Role |
+|---|------------|------|
+| 1 | [nutri-guide-gateway](https://github.com/mwilaalexis/nutri-guide-gateway) | API entry point (Ocelot) |
+| 2 | [nutri-guide-user-service](https://github.com/mwilaalexis/nutri-guide-user-service) | Auth, JWT, profiles |
+| 3 | [nutri-guide-food-service](https://github.com/mwilaalexis/nutri-guide-food-service) | Food catalog API |
+| 4 | [nutri-guide-plan-service](https://github.com/mwilaalexis/nutri-guide-plan-service) | Meal plans API |
+| 5 | [nutri-guide-web](https://github.com/mwilaalexis/nutri-guide-web) | React UI |
 
-| Layer | Repository | Role |
-|-------|------------|------|
-| Frontend | [nutri-guide-web](https://github.com/mwilaalexis/nutri-guide-web) | React / TypeScript SPA |
-| Gateway | [nutri-guide-gateway](https://github.com/mwilaalexis/nutri-guide-gateway) | Ocelot API gateway |
-| Auth and profiles | [nutri-guide-user-service](https://github.com/mwilaalexis/nutri-guide-user-service) | Accounts, JWT, weight history |
-| Catalog | [nutri-guide-food-service](https://github.com/mwilaalexis/nutri-guide-food-service) | Foods and ingredients API |
-| Plans | [nutri-guide-plan-service](https://github.com/mwilaalexis/nutri-guide-plan-service) | Meal plan generation and export |
+Each repo has a README with: what it does, how to run locally, and a short API overview.
 
-**Stack:** C#, ASP.NET Core, Entity Framework, Docker, TypeScript, REST, JWT
+## Tech stack
 
----
+C# | .NET 8 | ASP.NET Core | Entity Framework Core | SQL Server | REST | JWT | React | TypeScript | Docker | Git
 
-## Other projects
+## What I am looking for
 
-| Repository | Description |
-|------------|-------------|
-| [personal-portfolio](https://github.com/mwilaalexis/personal-portfolio) | Personal portfolio website |
-| [coursework-csharp-2024](https://github.com/mwilaalexis/coursework-csharp-2024) | Academic C# projects (2024) |
-| [coursework-csharp-basics](https://github.com/mwilaalexis/coursework-csharp-basics) | C# fundamentals coursework |
-
----
-
-## Highlights
-
-- Microservices architecture with repository pattern and centralized dependency injection
-- Open to internships, junior roles, and collaboration on .NET and full-stack projects
-
----
+Internship or entry-level role (.NET / backend / full-stack junior).
 
 ## Links
 
+- Portfolio: [mwilaalexis.github.io/personal-portfolio](https://mwilaalexis.github.io/personal-portfolio/)
 - GitHub: [github.com/mwilaalexis](https://github.com/mwilaalexis)
